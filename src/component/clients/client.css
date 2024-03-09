@@ -1,0 +1,25 @@
+.container4 {
+    text-align: center;
+    background-color: #0e152c;
+    color: aliceblue;
+    height: 100vh;
+    padding: 3vh 0;
+}
+
+.container4 .logo {
+    object-fit: contain;
+    padding: 0 0 3vh;
+}
+
+.container4 p {
+    width: 40vw;
+    position: absolute;
+    left: 30vw;
+    padding: 3vh 0;
+    font-size: 18px;
+}
+
+.swiper2 {
+    padding: 30vh 5vw;
+    margin-left: 14vw;
+}

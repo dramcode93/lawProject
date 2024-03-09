@@ -10,13 +10,13 @@ const Carousal = () => {
 
                 <div className="carousel-item active">
 
-                    <img style={{ width: "100vw", height: "70vh" }} src={img1} class="d-block w-100" alt="..." />
+                    <img style={{ width: "100vw", height: "70vh" }} src={img1} className="d-block w-100" alt="..." />
                     <div style={{ position: "relative", top: "-20rem", textAlign: "center", color: "white" }}>
                         <h1 style={{ fontWeight: "bold", fontSize: "80px" }}>القاهره</h1>
 </div>
                 </div>
                 <div className="carousel-item">
-                    <img style={{ width: "100vw", height: "70vh" }} src={img2} class="d-block w-100" alt="..." />
+                    <img style={{ width: "100vw", height: "70vh" }} src={img2} className="d-block w-100" alt="..." />
                     <div style={{ position: "relative", top: "-20rem", textAlign: "center", color: "white" }}>
                         <h1 style={{ fontWeight: "bold", fontSize: "80px" }}>دبي</h1>
                     </div>
@@ -28,7 +28,7 @@ const Carousal = () => {
                 <span className="carousel-control-prev-icon"  aria-hidden="true"></span>
                 <span className="visually-hidden" >Previous</span>
             </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+            <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
                 data-bs-slide="next">
                 <span className="carousel-control-next-icon" aria-hidden="true"></span>
                 <span className="visually-hidden" >Next</span>
