@@ -1,15 +1,12 @@
 .mainInputs {
     background-color: #0e152c;
     color: aliceblue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
-.inputs {
-    position: absolute;
-    bottom: -120%;
-    left: 60%;
-
-
-}
+ 
 
 .logo {
     padding: 50px;

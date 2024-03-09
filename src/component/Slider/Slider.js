@@ -38,7 +38,7 @@ const Slider = () => {
                 {/* <span className="carousel-control-prev-icon" aria-hidden="true"></span> */}
                 <span className="visually-hidden" >Previous</span>
             </button>
-            <button class="carousel-control-next" data-bs-target="#carouselExampleAutoplaying"
+            <button className="carousel-control-next" data-bs-target="#carouselExampleAutoplaying"
                 data-bs-slide="next">
                 {/* <span className="carousel-control-next-icon" aria-hidden="true"></span> */}
                 <span className="visually-hidden" >Next</span>
