@@ -18,17 +18,18 @@ const Input = () => {
                     <input
                         style={{ background: "#0e152c", color: "white", outline: "none", borderRadius: "5px", padding: "2%" }}
                         type="email"
-                                                placeholder='البريد الالكتروني'
+                        placeholder='البريد الالكتروني'
 
                     />
                 </div>
                 <div>
+
                     <textarea
                         style={{ background: "#0e152c", color: "white", outline: "none", margin: "20px", width: "446px", height: "70px", borderRadius: "5px", textAlign: "end", padding: "2%" }}
                         type="text"
-                                                placeholder='...اكتب رسالتك هنا '
-
+                            placeholder='...اكتب رسالتك هنا '
                     />
+                    <p className='send'>إرسال الرسالة</p>
                 </div>
             </div>
         </div>

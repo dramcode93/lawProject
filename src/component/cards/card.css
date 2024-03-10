@@ -1,6 +1,7 @@
 .container1 {
-    padding: 2vh 5vw;
+
     background-color: #0e152c;
+    width: 100%;
 }
 
 .container1 h1 {
@@ -15,10 +16,10 @@
     padding: 0 0 3vh;
 }
 
-.card1{
-    padding: 10vh 0 0 ;
+.card1 {
+    padding: 10vh 0 0;
     animation: fade-in 0.5s ease;
-    -webkit-animation: fade-in 3s ease;
+    -webkit-animation: fade-in 5s ease-in-out;
 }
 
 .my-component {
@@ -44,6 +45,7 @@
     text-align: center;
     color: #666;
     margin-bottom: 2rem;
+
 }
 
 .my-component img {
@@ -61,14 +63,15 @@
     padding: 2vh 0;
 }
 
-.description1,.description2 {
+.description1,
+.description2 {
     background-color: aliceblue;
     font-size: 18px;
     padding: 12vh 4vw;
     border-top-left-radius: 30px;
 }
 
-.description2{
+.description2 {
     border-top-left-radius: 0px;
     border-bottom-left-radius: 30px;
 
@@ -78,6 +81,10 @@
     width: 500px !important;
 }
 
+.info {
+    position: relative;
+    top: 100%
+}
 
 @keyframes fade-in {
     from {
@@ -88,13 +95,14 @@
         opacity: 1;
     }
 }
-h4{
+
+h4 {
     color: aliceblue !important;
     text-align: center;
     padding: 3vh 0;
 }
 
-.arrowImage{
+.arrowImage {
     width: 50px;
     object-fit: contain;
 }
