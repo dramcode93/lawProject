@@ -1,0 +1,29 @@
+.mySwiperr {
+    width: 400px;
+    height: 500px;
+    overflow: auto;
+    position: relative;
+    right: 50px;
+}
+
+.mainSwiper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url("../Section5/img_endless_constellation.png");
+    color: azure;
+    padding: 20px;
+}
+
+.company-setup-container {
+    font-family: Arial, sans-serif;
+    text-align: end;
+    width: 390px;
+    height: 10px;
+}
+
+.company-setup-text {
+    color: white;
+    margin-left: 100px;
+
+}
